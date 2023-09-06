@@ -1,0 +1,477 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Bai Jamjuree ;
+}
+.top-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 430px;
+    background-image: url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-sec h1 ,
+.top-sec p,
+.buttons1,
+.logo{
+   margin-bottom: 15px;
+}
+.top-sec h1{
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
+.top-sec p{
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+.but1, .but2{
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 30px;
+    height: 40px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius: 20px ;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+}
+.but1{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 1px 1px 5px  hsl(171, 66%, 44%) ;
+}
+.but2{
+    background-color:  hsl(233, 100%, 69%);
+    box-shadow: 1px 1px 5px  hsl(233, 100%, 69%) ;
+}
+.slide1{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slide1 h3{
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: hsl(210, 10%, 33%) ;
+}
+.slide1 p{
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 10px;
+}
+.main1-sec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+}
+.photo{
+    background-image: url(image-computer.png);
+    width: 752px;
+    height: 572px;
+    background-size: cover;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-bottom: 160px;
+}
+.details p{
+    max-width: 350px;
+    width: 100%;
+    margin-top: 10px;
+    line-height: 20px;
+    color: hsl(201, 11%, 66%) ;
+}
+.details h4{
+    color:hsl(210, 10%, 33%) ;
+    font-size: 20px;
+}
+.details div{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+}
+.slide2{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slide2 h3{
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: hsl(210, 10%, 33%) ;
+}
+.slide2 p{
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 10px;
+}
+.main2-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.photo2{
+    background-image: url(image-devices.png);
+    width: 905px;
+    height: 575px;
+    background-size: cover;
+}
+.slide3{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slide3 h3{
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: hsl(210, 10%, 33%) ;
+}
+.slide3 p{
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.card1,.card2,.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    text-align: center;
+    margin-right: 40px;
+}
+.cards p, .cards h4{
+    margin-top: 15px;
+}
+.cards p{
+    color: hsl(201, 11%, 66%) ;
+}
+.cards h4{
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+}
+.badges{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 430px;
+}
+.bottom-sec h2 ,
+.bottom-sec p,
+.buttons2
+{
+   margin-bottom: 15px;
+}
+.bottom-sec h1{
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
+.bottom-sec p{
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+.but3, .but4{
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 30px;
+    height: 40px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius: 20px ;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+}
+.but3{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 1px 1px 5px  hsl(171, 66%, 44%) ;
+}
+.but4{
+    background-color:  hsl(233, 100%, 69%);
+    box-shadow: 1px 1px 5px  hsl(233, 100%, 69%) ;
+}
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #EEE;
+}
+.logo2{
+    background-image: url(logo.svg);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: 30px 30px;
+}
+.links a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+}
+.facebook{
+    background-image: url(icon-facebook.svg);
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+}
+.twitter{
+    background-image: url(icon-twitter.svg);
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+}
+.instagram{
+    background-image: url(icon-instagram.svg);
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+}
+footer{
+    background-color: #131313e3;
+    height: 20px;
+    color: #FFF;
+}
+.attribution {
+     font-size: 12px; 
+     text-align: center;
+ }
+.attribution a {
+     color: hsl(189, 48%, 63%); 
+    }
+button{
+    transition: 2s;
+}
+button:hover{
+    transform: scale(1.05);
+    transition-timing-function: ease;
+}
+@media screen and (max-width:435px){
+    .top-sec{
+        background-image: url(bg-header-mobile.png);
+        width: 794px;
+        height: 650px;
+    }
+    .top-sec h1 {
+        font-size: 43px;
+    }
+    .top-sec button{
+        height: 60px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        font-size: 20px;
+        width: 280px;
+    }
+    .top-sec p{
+        font-size: 25px;
+    }
+    .buttons1{
+        display: flex;
+        flex-direction: column;
+    }
+    .slide1{
+        width: 794px;
+        height: 400px;
+    }
+    .slide1 h3{
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .slide1 p{
+        font-size: 25px;
+    }
+    .main1-sec{
+        width: 794px;
+        flex-direction: column;
+        height: 1250px;
+    }
+    .photo{
+       width: 700px;
+       height: 533px;
+    }
+    .details{
+        height: 550px;
+    }
+    .details h4{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 30px;
+    }
+    .details p{
+        font-size: 26px;
+        text-align: center;
+        max-width: 400px;
+        line-height: 30px;
+    }
+    .slide2{
+        width: 794px;
+        height: 400px;
+    }
+    .slide2 h3{
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .slide2 p{
+        font-size: 25px;
+    }
+    .main2-sec{
+        width: 794px;
+    }
+    .photo2{
+        width: 796px;
+        height: 533px;
+    }
+    .slide3{
+        width: 794px;
+        height: 400px;
+    }
+    .slide3 h3{
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .slide3 p{
+        font-size: 25px;
+    }
+    .cards{
+        flex-direction: column;
+        width: 794px;
+        height: 650px;
+        justify-content: space-between;
+    }
+    .cards h4{
+        font-size: 35px;
+    }
+    .cards p{
+        font-size: 25px;
+    }
+    .card1,.card2,.card3{
+        margin-bottom: 50px;
+        width: 450px;
+    }
+    .badges{
+        flex-direction: column;
+        width: 794px;
+        height:1100px;
+    }
+    .badges img{
+        width: 320px;
+        height: 90px;
+    }
+    .bottom-sec{
+        width: 794px;
+        height: 650px;
+    }
+    .bottom-sec h2 {
+        font-size: 43px;
+    }
+    .bottom-sec button{
+        height: 60px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        font-size: 20px;
+        width: 280px;
+    }
+    .bottom-sec p{
+        font-size: 25px;
+    }
+    .buttons2{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        width: 794px;
+        height: 750px;
+        flex-direction: column;
+    }
+    .logo2{
+        height: 100px;
+        width: 100px;
+    }
+    .links{
+        grid-template-columns: 300px;
+        grid-template-rows:repeat(5,70px);
+        text-align: center;
+    }
+    .links a{
+        font-size: 30px;
+    }
+    .social{
+        width: 300px;
+       
+    }
+    .facebook,.instagram{
+        width: 40px;
+        height: 40px;
+    }
+    .twitter{
+        width: 54px;
+        height: 45px;
+    }
+    footer{
+        height: 40px;
+        width: 794px;
+    }
+    .attribution {
+         font-size: 20px; 
+         }
+
+
+   
+
+}
+
